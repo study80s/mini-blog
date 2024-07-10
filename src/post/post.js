@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Post(){
     const markdownFiles=[
-        {name : "글", content:"내용의 요약입니다."},
-        {name : "글", content:"내용의 요약입니다."}
+        {name : "글1", content:"내용의 요약입니다."},
+        {name : "글2", content:"내용의 요약입니다."}
     ];
 
     return (
@@ -14,7 +14,7 @@ export default function Post(){
                 <div className="col-span-3">
                     <h2 className="text-2xl gont-bold mb-4">글</h2>
                     <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
-                        {markdownFiles.map((file,index)=>(
+                        {markdownFiles.map((file, index)=>(
                             <Link 
                                 key="index" 
                                 to={`/blog/${file.name}`}
