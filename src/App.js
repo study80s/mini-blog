@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 
 import { Route, Routes } from 'react-router-dom';
 import Home from "./home/home";
 import Post from "./post/post";
 import Header from "./layout/header";
+import Footer from "./layout/footer";
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
           </Routes>
         </main>
       </div>
+      <Footer/>
     </div>
   );
 }

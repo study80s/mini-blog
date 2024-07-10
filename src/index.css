@@ -4,7 +4,7 @@
 
 
 .body{
-  min-height : 100vh;
+  min-height : 1200px;
 }
 
 .title{
@@ -19,4 +19,15 @@
 
 .header-color {
   background-color : #16803b;
+}
+.bg-muted{
+  background-color : #f4f4f5;
+}
+.text-muted{
+  color:#6e6e77;
+}
+.bg-footer {
+  background-color : #f4f4f5;
+  color : #6e6e77;
+  
 }
